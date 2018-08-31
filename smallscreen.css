@@ -1,0 +1,43 @@
+/*resolution à finir*/
+
+@media screen and (max-width:1200px){
+	/*header*/
+	.bloc_header{
+		background-color: rgb(250, 200, 50);
+		color: rgb(78, 14, 59);
+	}
+
+	.bloc_header p{
+		color: rgb(134, 2, 53);
+	}
+	/*navigation*/
+	.bloc_nav{
+		background-color: rgb(238, 267, 186);
+	}
+	.bloc_nav a{
+		color: rgb(179, 0, 37);
+	}
+	.bloc_nav a:hover{
+		color: rgb(235, 67, 31);
+	}
+	/*section*/
+	.bloc_paragraph{
+		display: flex;
+		flex-direction: column;
+		background-color: rgb(235, 67, 31);
+		color: rgb(245, 245, 245);
+	}
+	/*aside*/
+	.bloc_aside{
+		background-color: rgb(235, 235, 235);
+	}
+	/*footer*/
+	.bloc_footer{
+		background-color: rgb(108, 44, 89);
+		color: rgb(235, 175, 0);
+		justify-content: space-around;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
